@@ -1,0 +1,42 @@
+{
+  "name": "hulan-framework-backend",
+  "version": "1.0.0",
+  "description": "Hulan Framework Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://joey_hulan@bitbucket.org/hulanstudio/hulan-framework-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hulanstudio/hulan-framework-backend#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/forms": "^2.4.1",
+    "@angular/http": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "core-js": "^2.4.1",
+    "foundation-sites": "^6.3.0",
+    "gulp": "^3.9.1",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "del": "^2.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-typescript": "^3.1.3",
+    "systemjs-builder": "^0.15.34",
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0"
+  }
+}

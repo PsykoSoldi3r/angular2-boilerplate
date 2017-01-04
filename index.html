@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hulan Framework Backend</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- DEVELOPMENT -->  
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/rxjs/bundles/Rx.js"></script>
+        <script src="node_modules/systemjs/dist/system.js"></script>
+
+        <script src="system.js"></script>
+
+        <!-- PRODUCTION -->
+        <!--<script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/systemjs/dist/system.js"></script>
+        <script>
+            System.import('dist/main.min.js').catch(function(err){ console.error(err); });
+        </script>-->
+    </head>
+    <body>
+        <hulanframework />
+    </body>
+</html>

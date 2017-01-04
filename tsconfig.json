@@ -1,0 +1,17 @@
+{
+    "compilerOptions":{
+        "outDir":"public_html/app",
+        "target":"es5",
+        "module":"system",
+        "sourceMap":true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "removeComments": false,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
